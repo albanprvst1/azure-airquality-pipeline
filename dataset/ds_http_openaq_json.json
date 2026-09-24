@@ -1,0 +1,19 @@
+{
+	"name": "ds_http_openaq_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_http_openaq",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "locations?limit=100"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

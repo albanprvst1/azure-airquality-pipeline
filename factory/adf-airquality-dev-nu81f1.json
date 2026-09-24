@@ -1,0 +1,10 @@
+{
+	"name": "adf-airquality-dev-nu81f1",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "francecentral"
+}
